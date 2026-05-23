@@ -147,16 +147,30 @@ html, body, [class*="css"] {
     font-size: 0.72rem !important;
 }
 
-.stTextInput input {
+.stTextInput input,
+div[data-baseweb="input"] input,
+input[type="text"] {
     min-height: 58px;
     border: 1px solid rgba(255,255,255,0.14) !important;
     border-radius: 10px !important;
-    background: rgba(255,255,255,0.065) !important;
+    background: #0b1020 !important;
     color: white !important;
+    -webkit-text-fill-color: white !important;
+    caret-color: var(--cyan) !important;
     font-size: 1rem !important;
 }
 
-.stTextInput input:focus {
+.stTextInput input::placeholder,
+div[data-baseweb="input"] input::placeholder,
+input[type="text"]::placeholder {
+    color: #7f8ca3 !important;
+    -webkit-text-fill-color: #7f8ca3 !important;
+    opacity: 1 !important;
+}
+
+.stTextInput input:focus,
+div[data-baseweb="input"] input:focus,
+input[type="text"]:focus {
     border-color: rgba(66,248,255,0.75) !important;
     box-shadow: 0 0 0 4px rgba(66,248,255,0.10) !important;
 }
