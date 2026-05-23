@@ -1,0 +1,19 @@
+# Streamlit app
+streamlit>=1.35.0
+
+# Tavily Search Tool
+tavily-python>=0.3.0
+
+# Web scraping
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+lxml>=5.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Retry + robustness
+tenacity>=8.2.0
+
+# Optional (for advanced parsing / HTML cleanup)
+html5lib>=1.1
