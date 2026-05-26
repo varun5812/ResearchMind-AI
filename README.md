@@ -1,45 +1,62 @@
-# ResearchMind
+🔍 ResearchMind AI
 
-A Streamlit research app using Tavily search and web scraping.
+ResearchMind AI is an AI-powered research automation system that generates structured research reports from user-provided topics. The application combines intelligent web search, web scraping, content processing, and AI-based summarization to deliver organized and meaningful research insights through an interactive Streamlit interface.
 
-## Run locally
+🚀 Features
+AI-powered topic research
+Automated web search integration
+Real-time web scraping
+Structured research report generation
+Interactive Streamlit web application
+Downloadable Markdown reports
+Clean and user-friendly interface
+🛠️ Technologies Used
+Python
+Streamlit
+Tavily API
+BeautifulSoup
+Requests
+⚙️ How It Works
+User enters a research topic
+Tavily API searches relevant web content
+Web pages are scraped and processed
+Important insights are summarized
+A structured research report is generated
+Users can download the report in Markdown format
+📂 Project Use Cases
+Academic research
+Topic analysis
+Market research
+AI-powered information gathering
+Trend analysis
+🔧 Installation
 
-1. Install dependencies:
+Clone the repository:
 
-```bash
+git clone https://github.com/YOUR_USERNAME/ResearchMind-AI.git
+
+Navigate to the project folder:
+
+cd ResearchMind-AI
+
+Install dependencies:
+
 pip install -r requirements.txt
-```
 
-2. Create a `.env` file from `.env.example` and add your keys:
+Run the Streamlit application:
 
-```bash
-TAVILY_API_KEY=your_tavily_api_key_here
-```
-
-3. Start the app:
-
-```bash
 streamlit run app.py
-```
+🎯 Future Improvements
+PDF report export
+Multi-language support
+Advanced NLP summarization
+AI chatbot integration
+Research history tracking
+👨‍💻 Author
 
-## Deploy
+Varun Kumar H C
+Aspiring Data Scientist & AI/ML Graduate
 
-This project is easiest to deploy on Streamlit Community Cloud.
+📧 Email: varunkumar5812@gmail.com
 
-1. Push this folder to GitHub.
-2. In Streamlit Cloud, create a new app from the repo.
-3. Set the main file path to:
-
-```text
-app.py
-```
-
-4. Add this secret in Streamlit Cloud:
-
-```toml
-TAVILY_API_KEY = "your_tavily_api_key_here"
-```
-
-5. Deploy the app.
-
-The app needs internet access at runtime for Tavily search and website scraping.
+Based on your uploaded resume project details.
