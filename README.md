@@ -1,3 +1,5 @@
+Website link :https://researchmind-ai-oq52.onrender.com/
+
 🔍 ResearchMind AI
 
 ResearchMind AI is an AI-powered research automation system that generates structured research reports from user-provided topics. The application combines intelligent web search, web scraping, content processing, and AI-based summarization to deliver organized and meaningful research insights through an interactive Streamlit interface.
